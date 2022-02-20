@@ -1,0 +1,89 @@
+.half
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 50%
+.full
+    width: 100%
+.report
+    .reportCard
+        .type
+            font-weight: bold
+            font-size: 16px
+            color: $headingColor
+            margin-bottom: 34px
+        background-color: #F1FAFE
+        margin-bottom: 27px
+        border-radius: 10px
+        padding: 18px 24px
+        .item
+            display: flex
+            cursor: pointer
+            height: 70px
+            padding: 0 24px
+            justify-content: space-between
+            align-items: center
+            background-color: white
+            border-radius: 10px
+            margin: 5px 0
+            span
+                font-weight: bold
+                font-size: 16px
+                color: $headingColor
+        .itemDetails
+            margin: 14px 0
+            padding: 0 14px
+            thead
+                background-color: white
+
+    .total
+        background-color: #F1FAFE
+        border-radius: 10px
+        padding: 18px 24px
+        font-weight: bold
+        font-size: 16px
+        color: $headingColor
+.graph
+    padding-left: 31px
+    justify-content: flex-start
+    .header
+        padding: 19px 23px
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        background-color: #F1FAFE
+        border-radius: 10px
+        .item
+            display: flex
+            align-items: center
+            color: #011F4B
+            font-size: 14px
+            .box
+                width: 15px
+                height: 15px
+                border-radius: 5px
+                display: inline-block
+                margin-right: 12px
+    .pie
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 20px 0
+    .total
+        background-color: #F1FAFE
+        border-radius: 10px
+        padding: 18px 24px
+            font-weight: bold
+            font-size: 16px
+            color: $headingColor
+            
+
+.table-striped
+    tbody 
+        tr:nth-of-type(odd) 
+            *
+                --bs-table-striped-bg: #F1FAFE
+                background-color: #F1FAFE
+        tr:nth-of-type(even) 
+            *
+                background-color: white

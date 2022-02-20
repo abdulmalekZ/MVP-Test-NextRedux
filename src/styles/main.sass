@@ -1,0 +1,71 @@
+.mainContainer
+    display: flex
+    padding: 10px
+    .menu
+        padding: 41px 36px
+        display: flex
+        flex-direction: column
+        svg
+            cursor: pointer
+            width: 24px
+            height: 24px
+            margin-bottom: 24px
+    .content
+        padding: 32px 5vw 10px 14px
+        flex-grow: 1
+        min-height: 80vh
+        display: flex
+        flex-direction: column
+        .containerHeader
+            display: flex
+            justify-content: space-between
+            .title
+                h1
+                    font-size: 24px
+                    font-weight: bold
+                    color: $headingColor
+                    margin-bottom: 4px
+                .sub
+                    font-size: 16px
+                    font-weight: bold
+                    color: $textSub
+            .filters
+                position: relative
+                display: flex
+                justify-content: flex-end
+                align-items: center
+                .react-datepicker-wrapper
+                    width: auto
+                .filter, .dropdown
+                    button
+                        background-color: $secondary
+                        outline: 0
+                        border: 0
+                        padding: 4px 13px
+                        max-height: 32px
+                    color: white
+                    font-size: 14px
+                    background-color: $secondary
+                    border-radius: 5px
+                    margin-left: 23px
+                    max-height: 32px
+                    border: 0
+                    svg
+                        margin-left: 13px
+                        position: relative
+                        top: -2px
+                .generate
+                    background-color: $primary
+                .filter
+                    padding: 6px 13px
+        .containerContent
+            flex-grow: 1
+            display: flex
+            padding-top: 27px
+            .noData
+                width: 100%
+                height: 100%
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
