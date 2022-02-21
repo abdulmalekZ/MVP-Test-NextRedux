@@ -10,7 +10,7 @@ import { State } from "src/interfaces/State";
 import { DisplayType } from "src/interfaces/Report";
 import { calculateType } from "src/helpers/types";
 
-export const Cards: React.FC = () => {
+export const ReportsView: React.FC = () => {
     const dispatch = useDispatch();
     const reports: State = useSelector((state: any) => state.reports);
     const filters = useSelector((state: any) => state.filters);

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Item } from "./item";
 import { PieChart } from "react-minimal-pie-chart";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { State } from "src/interfaces/State";
 import { NoData } from "./noData";
 import { DisplayType, OrganizedReportProjectType } from "src/interfaces/Report";
@@ -23,7 +22,6 @@ interface ChartData {
 }
 
 export const Report: React.FC<{ type: DisplayType }> = ({ type }) => {
-    const dispatch = useDispatch();
     const [organized, setOrganized] = useState<OrganizedReportProjectType[]>(
         [],
     );

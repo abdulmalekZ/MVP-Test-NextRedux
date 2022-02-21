@@ -1,6 +1,4 @@
 import { IFilters } from "@redux/slices/filters";
-import { report } from "process";
-import { useSelector } from "react-redux";
 import { Gateway } from "src/interfaces/Gateway";
 import { Project } from "src/interfaces/Project";
 import {

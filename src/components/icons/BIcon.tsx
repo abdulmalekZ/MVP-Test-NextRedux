@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgNextjsIcon(props: React.SVGProps<SVGSVGElement>) {
+function BIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
             className="logoIcon"
@@ -71,4 +71,4 @@ function SvgNextjsIcon(props: React.SVGProps<SVGSVGElement>) {
     );
 }
 
-export default SvgNextjsIcon;
+export default BIcon;
